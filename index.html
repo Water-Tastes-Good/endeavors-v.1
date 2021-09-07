@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en'>
+   
+<!--
+
+"NAVBARS ARE RESPONSIVE META COMPONENTS THAT ARE ARE COLLAPSED (TOGGEABLE) MOBILE VIEWS, THEY BECOME 
+  HORIZONTAL AS VIEWPORT INCREASES" 
+                          -OFFICIAL BOOTSTRAP DEFINITION
+-->
+
+   <head>
+      <title>Endeavors</title>
+      <meta charset="utf-8">
+      <!--Viewport provisions-->
+      <meta name='viewport' content='width=device-width, inital-scale=1'>
+
+      <!--Frameworks-->
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!--Frameworks\additional-scripts-->
+      <script src="jquery.min.js"></script>
+      <script src="bootstrap.min.js"></script>
+
+   </head>
+   <body>
+      <!--Navbar creation-->
+      <nav class='navbar navbar-default'>
+         <!--Container definition-->
+
+         <!--Dropdown/Navbar element fixes-->
+
+         <div class='navbar-header'>
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#navtarg'>
+               <span class='sr-only'>Toggle Navigation</span>
+               <span class='icon-bar'></span>
+               <span class='icon-bar'></span>
+               <span class='icon-bar'></span>
+            </button>
+               
+            <a class='navbar-brand' href='index.html'>Endeavors</a>
+         </div>
+
+         <div class='collapse navbar-collapse' id='navtarg'>
+            
+            <ul class='nav navbar-nav navbar-right'>
+
+               <li>
+                  <a href='ani.html'>Anime</a>
+               </li>
+               <li>
+                  <a href='man.html'>Manwha</a>
+               </li>
+
+            </ul>
+            
+         </div>
+
+         <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+               <h1 class="display-3">Hello,</h1>
+               <p class="lead">My name is Barnabas, an aspiring programmer as well as a 16 year old bum with social issues. I built this site to keep track of all the anime, manwha, and manga that perks my interest. Partly beacuse I read so many and partly because I forget.</p>
+               <hr class="my-2">
+               <p>No, I do not have a girlfriend. How did you know?</p>
+               <p class="lead">
+                  <div><h3><b>Are you me? </b></b></div>
+                                       
+                  <a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" role="button">No</a>
+                  <a class="btn btn-sec btn-lg" href="man.html" role="button">Yes</a>
+               </p>
+            </div>
+         </div>
+      </nav>
+      
+   </body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+   
+<!--
+
+"NAVBARS ARE RESPONSIVE META COMPONENTS THAT ARE ARE COLLAPSED (TOGGEABLE) MOBILE VIEWS, THEY BECOME 
+  HORIZONTAL AS VIEWPORT INCREASES" 
+                          -OFFICIAL BOOTSTRAP DEFINITION
+-->
+
+   <head>
+      <title>Endeavors</title>
+      <meta charset="utf-8">
+      <!--Viewport provisions-->
+      <meta name='viewport' content='width=device-width, inital-scale=1'>
+
+      <!--Frameworks-->
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!--Frameworks\additional-scripts-->
+      <script src="jquery.min.js"></script>
+      <script src="bootstrap.min.js"></script>
+
+   </head>
+   <body>
+      <!--Navbar creation-->
+      <nav class='navbar navbar-default'>
+         <!--Container definition-->
+
+         <!--Dropdown/Navbar element fixes-->
+
+         <div class='navbar-header'>
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#navtarg'>
+               <span class='sr-only'>Toggle Navigation</span>
+               <span class='icon-bar'></span>
+               <span class='icon-bar'></span>
+               <span class='icon-bar'></span>
+            </button>
+               
+            <a class='navbar-brand' href='index.html'>Endeavors</a>
+         </div>
+
+         <div class='collapse navbar-collapse' id='navtarg'>
+            
+            <ul class='nav navbar-nav navbar-right'>
+
+               <li>
+                  <a href='ani.html'>Anime</a>
+               </li>
+               <li>
+                  <a href='man.html'>Manwha</a>
+               </li>
+
+            </ul>
+            
+         </div>
+      </nav>
+
+      <ul class="media-list">
+  <li class="media">
+    <div class="media-left">
+
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Not done yet.</h4>
+    </div>
+  </li>
+</ul>
+      
+   </body>
+
+</html>

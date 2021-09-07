@@ -1,0 +1,15 @@
+div.org{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img {
+   display: inline;
+   width: 50%;
+   margin: auto;
+   padding: 0%;
+}
+
+p {
+   text-overflow: clip;
+}
