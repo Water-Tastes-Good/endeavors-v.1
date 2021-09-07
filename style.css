@@ -13,3 +13,7 @@ img {
 p {
    text-overflow: clip;
 }
+
+body{
+	background: #E2E2E2; /*ECECEC is color for panel */
+}
